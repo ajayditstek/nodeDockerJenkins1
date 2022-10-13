@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('get method');
+  res.send('i have made these changes in main');
 });
 app.get('/sdfdsf', (req, res) => {
   res.send('get mdfdfethod');
