@@ -14,9 +14,6 @@ app.get('/', (req, res) => {
 app.get('/sdfdsf', (req, res) => {
   res.send('get mdfdfethod');
 });
-app.get('/sdfd4444sf', (req, res) => {
-  res.send('get md3333fdfethod');
-});
 
 app.get('/sdfdsf445555', (req, res) => {
   res.send('get mdfdfethod');
