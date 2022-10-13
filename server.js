@@ -9,9 +9,10 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('these are the changes made by me on development');
+  res.send('i have made these changes in development');
 });
 app.get('/sdfdsf', (req, res) => {
+  console.log('here is some code added by me on my branch');
   res.send('get mdfdfethod');
 });
 
